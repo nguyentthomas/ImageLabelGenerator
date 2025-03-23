@@ -8,3 +8,13 @@ Label: Mouth, Confidence: 96.66%
 Label: Puppy, Confidence: 79.47%
 Label: Wood, Confidence: 77.16%
 Label: Tongue, Confidence: 75.12%
+Label: Animal, Confidence: 100.00%
+Label: Canine, Confidence: 100.00%
+Label: Dog, Confidence: 100.00%
+Label: Husky, Confidence: 100.00%
+Label: Mammal, Confidence: 100.00%
+Label: Pet, Confidence: 100.00%
+Label: Mouth, Confidence: 96.66%
+Label: Puppy, Confidence: 79.47%
+Label: Wood, Confidence: 77.16%
+Label: Tongue, Confidence: 75.12%

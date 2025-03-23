@@ -4,9 +4,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 rekognition = boto3.client('rekognition')
+bucket = (os.getenv("BUCKET_NAME"))
+image = (os.getenv("IMAGE_NAME"))
 
 response = rekognition.detect_labels(
-    Image={'S3Object': {'Bucket': (os.getenv("BUCKET_NAME")), 'Name': (os.getenv("IMAGE_NAME"))}},
+    Image={'S3Object': {'Bucket': bucket, 'Name': image}},
     MaxLabels=10
 )
 
